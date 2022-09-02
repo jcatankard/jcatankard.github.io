@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jcatankard</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* background image (Logo. Full height) */
+.bgimg1 {
+  background-image: url('images/cover_image.jpg');
+  min-height: 100%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-light-grey">
+  <div class="w3-bar" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECT SAMPLES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg bgimg1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <div class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">JOSH TANKARD</div>
+    <a href="cv/cv.pdf" target="_blank">
+      <div class="w3-center w3-padding-large w3-light-grey w3-xlarge w3-wide w3-animate-opacity">DOWNLOAD CV</div>
+    </a>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I love problem solving</em></p>
+  <div class="w3-col m6 w3-center w3-padding-large">
+    <img src="images/profile.jfif" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+  </div>
+  <p>
+        I started my time at Vista in a Pricing Specialist role and quickly found that I love building tools and working with data.
+         The natural step from here was to teach myself some basic programming and before long I was in a new role as an analyst in the cross-functional pricing & promo data product team.
+          Here my programming skills developed faster and I started developing scalable solutions to tracking the impact from price changes - helping me to develop skills across data analytics, science & enginnering.
+          <br> 
+          A major breakthrough occured when I was able to innovate an entirely new approach to tracking price change impact through <a href="https://vista.io/blog/time-split-testing-for-pricing-optimization-at-scale" target="_blank">time-split testing</a>.
+           This required working in an area entirely new for the company allowing us to measure price changes far more reliably bringing greater value for the business and customers.
+            Leading the impact tracking workstream put myself in a great position to develop the experimentation methodology from scratch and build an entirely new automated and scalable data product end-to-end.
+          <br>
+  </p>
+  <div class="w3-row"></div>
+
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg bgimg1 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PROJECT SAMPLES</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are some examples of my work and interests</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <a href="https://vista.io/blog/time-split-testing-for-pricing-optimization-at-scale" target="_blank"><img src="images/2-1.svg" style="width:100%" class="w3-hover-opacity" alt="Timesplit testing"></a>
+      <p>blog post about time-split experimentation I built for Vista</p>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/p3.jpg" style="width:100%" class="w3-hover-opacity" alt="Content TBC">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/p3.jpg" style="width:100%" class="w3-hover-opacity" alt="Content TBC">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/p3.jpg" style="width:100%" class="w3-hover-opacity" alt="Content TBC">
+    </div>
+
+  </div>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg bgimg1 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center"><em>Feel free to message me on LinkedIn!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <a href="https://duckduckgo.com/?q=map+barcelona&ia=web&iaxm=maps" target="_blank"><img src="images/barcelona_map.png" class="w3-image w3-round" style="width:100%"></a>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Barcelona, ES<br>
+        <a href="https://www.linkedin.com/in/joshtankard/" target="_blank"><i class="fa fa-linkedin fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i></a> LinkedIn<br>
+      </div>
+      <a href="cv/cv.pdf" target="_blank">
+        <span class="w3-center w3-padding-large w3-light-grey w3-xlarge w3-wide w3-animate-opacity">DOWNLOAD CV</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.linkedin.com/in/joshtankard/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</footer>
+</body>
+</html>
