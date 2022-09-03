@@ -24,21 +24,19 @@ body, html {
   background-size: cover;
 }
 
-/* background image */
-.bgimg1 {
-  background-image: url('images/cover.jpg');
-  min-height: 100%;
-}
+
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1 {
+@media only screen and (max-device-width: 1000px) {
+  .bgimg1 {
+    background-image: url('images/mobile_cover.jpg');
     background-attachment: scroll;
-    min-height: 400px;
+    min-height: 100%;
   }
 }
-@media only screen and (max-device-width: 500px) {
-  .bgimg-1 {
-    background-image: url('images/mobile_cover.jpg');
+@media only screen and (min-device-width: 1000px) {
+  .bgimg1 {
+    background-image: url('images/cover.jpg');
+    min-height: 100%;    
   }
 }
 
