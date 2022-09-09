@@ -1,2 +1,2 @@
 # jcatankard.github.io
-my personal page
+my personal page: www.jcatankard.github.io
